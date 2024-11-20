@@ -1,3 +1,20 @@
-<p>
-  conferencias-list works!
-</p>
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="h4">nombre</th>
+          <th class="h4">fechaInicio</th>
+          <th class="h4">fechaFin</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let x of conferencias">
+          <td>{{ x.nombre }}</td>
+          <td>{{ x.fechaInicio }}</td>
+          <td>{{ x.fechaFin }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
