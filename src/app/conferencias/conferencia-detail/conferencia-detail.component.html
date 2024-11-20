@@ -1,0 +1,34 @@
+<p>
+  conferencia-detail works!
+</p>
+<div class="container-fluid">
+  <p class="h3 p-3">{{ coferenciaDetail.nombre  }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ coferenciaDetail}}"
+          alt="{{ coferenciaDetail }}"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+        <dt>Authors</dt>
+        <dd>No available information</dd>
+        <dt>ISBN</dt>
+        <dd>{{ coferenciaDetail.fechaInicio }}</dd>
+        <hr />
+        <dt>Publishing Date</dt>
+        <dd>{{ coferenciaDetail.fechaFin }}</dd>
+        <hr />
+        <dt class="bold">Editorial</dt>
+        <dd class="caption">{{ coferenciaDetail.nombre  }}</dd>
+        <hr />
+        <dt class="bold">Description</dt>
+        <dd>{{ coferenciaDetail.nombre }}</dd>
+      </dl>
+    </div>
+  </div>
+ </div>

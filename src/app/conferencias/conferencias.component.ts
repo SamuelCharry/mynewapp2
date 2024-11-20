@@ -6,12 +6,9 @@ import { Conferencias } from './conferencias-list/conferencias';
   styleUrls: ['./conferencias.component.css']
 })
 export class ConferenciasComponent implements OnInit {
-  conferencias: Array<Conferencias> =[]
   constructor() { }
 
-  getConferenciasList(): Array<Conferencias> {
-    return this.conferencias;
-  }
+
 
   ngOnInit() {
   }

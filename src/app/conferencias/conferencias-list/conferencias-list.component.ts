@@ -12,6 +12,10 @@ export class ConferenciasListComponent implements OnInit {
 
   constructor() { }
 
+  getConferenciasList(): Array<Conferencias> {
+    return this.conferencias;
+  }
+
   ngOnInit() {
   }
 
