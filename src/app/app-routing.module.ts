@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ConferenciasModule } from './conferencias/conferencias.module';
 
 const routes: Routes = [];
 
